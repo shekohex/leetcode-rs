@@ -3,6 +3,8 @@
     <img src="https://camo.githubusercontent.com/a34cfbf37ba6848362bf2bee0f3915c2e38b1cc1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f5052732d77656c636f6d652d627269676874677265656e2e7376673f7374796c653d666c61742d737175617265" alt="PRs welcome"/>
     <img src="https://img.shields.io/badge/rust-leetcode-yellow" alt="Rust LeetCode"/>
     <img src="https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg" alt="License"/>
+    <img src="https://github.com/shekohex/leetcode-rs/workflows/Main/badge.svg" alt="Actions Status"/>
+    <a href="https://github.com/shekohex/leetcode-rs/issues"><img alt="GitHub issues" src="https://shields-staging-pr-3898.herokuapp.com/github/issues/shekohex/leetcode-rs"></a>
 
 </p>
 <h1 align="center">LeetCode Rust 🦀</h1>
