@@ -9,7 +9,7 @@ https://github.com/shekohex/leetcode-rs/CONTRIBUTING.md
 **What kind of change does this PR introduce?** (check at least one)
 
 <!--
-If you are introducing a new soultion, you must reference the leetcode problem link.
+If you are introducing a new solution, you must reference the leetcode problem link.
 -->
 
 - [ ] Solution: Leetcode link
