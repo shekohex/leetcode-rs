@@ -50,4 +50,4 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v1
     - name: Test
-      run: cargo test --verbose
+      run: cargo test --all --verbose
