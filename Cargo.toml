@@ -1,0 +1,16 @@
+[package]
+name = "leetcode-rs"
+version = "0.0.0"
+authors = [
+  "Shady Khalifa <shekohex@gmail.com>",
+  "LeetCode Rust Project Contributors",
+]
+edition = "2018"
+license = "Apache-2.0/MIT"
+repository = "https://github.com/shekohex/leetcode-rs"
+description = "Learning Rust By Solving Leetcode Problems."
+readme = "README.md"
+publish = false
+
+[workspace]
+members = []
