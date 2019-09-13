@@ -13,4 +13,4 @@ readme = "README.md"
 publish = false
 
 [workspace]
-members = []
+members = ["./easy/two-sum"]
