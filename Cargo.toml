@@ -13,4 +13,4 @@ readme = "README.md"
 publish = false
 
 [workspace]
-members = ["./easy/two-sum"]
+members = ["./easy/two-sum", "./easy/reverse-integer"]
