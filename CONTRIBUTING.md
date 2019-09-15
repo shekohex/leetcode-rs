@@ -64,7 +64,7 @@ $ git checkout -b two-sum
 7. Make a new Cargo project (as a library) named after problem name in one of (easy, medium, hard) directory depending on the level of the picked problem. e.g
 
 ```bash
-$ cargo new --lib --vsc none ./easy/two-sum
+$ cargo new --lib --vcs none ./easy/two-sum
 ```
 
 8. Add your project to the Cargo Workspace in [Cargo.toml](Cargo.toml) file
