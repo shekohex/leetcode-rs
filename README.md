@@ -4,8 +4,6 @@
     <img src="https://img.shields.io/badge/rust-leetcode-yellow" alt="Rust LeetCode"/>
     <img src="https://img.shields.io/badge/license-MIT%2FApache--2.0-blue.svg" alt="License"/>
     <img src="https://github.com/shekohex/leetcode-rs/workflows/Main/badge.svg" alt="Actions Status"/>
-    <a href="https://github.com/shekohex/leetcode-rs/issues"><img alt="GitHub issues" src="https://shields-staging-pr-3898.herokuapp.com/github/issues/shekohex/leetcode-rs"></a>
-
 </p>
 <h1 align="center">LeetCode Rust 🦀</h1>
 
