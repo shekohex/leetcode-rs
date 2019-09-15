@@ -64,7 +64,7 @@ $ git checkout -b two-sum
 7. Make a new Cargo project (as a library) named after problem name in one of (easy, medium, hard) directory depending on the level of the picked problem. e.g
 
 ```bash
-$ cargo new --lib ./easy/two-sum
+$ cargo new --lib --vsc none ./easy/two-sum
 ```
 
 8. Add your project to the Cargo Workspace in [Cargo.toml](Cargo.toml) file
@@ -78,12 +78,18 @@ $ cargo test -p two-sum
 11. Add your solved problem list in the `README.md` file located in one of (easy, medium, hard) directory depending on the level of this problem. e.g: in [easy/README.md](easy/README.md)
 
 ```md
-- [Two Sum](https://leetcode.com/problems/two-sum/) See #1
+- [Two Sum](https://leetcode.com/problems/two-sum/) See [#1)[https://github.com/shekohex/leetcode-rs/pull/1]
 ```
 
 11. Commit your changes once you are happy with it.
 12. Create a new PR with your changes to the `master` branch.
-13. Thank you :heart:
+13. Delete your local branch (optinal). e.g:
+
+```
+$ git branch -D two-sum
+```
+
+14. Thank you :heart:
 
 [install rust]: http://rust-lang.org/install.html
 [here]: https://leetcode.com/problemset/all/
