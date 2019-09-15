@@ -1,9 +1,11 @@
 name: Main
 on:
   push:
+    branches:
+      - master
   pull_request:
     branches:
-    - master
+      - master
 
 jobs:
   codestyle:
@@ -43,11 +45,11 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     steps:
-    - name: Setup Rust
-      uses: hecrj/setup-rust-action@v1
-      with:
-        rust-version: ${{ matrix.rust }}
-    - name: Checkout
-      uses: actions/checkout@v1
-    - name: Test
-      run: cargo test --all --verbose
+      - name: Setup Rust
+        uses: hecrj/setup-rust-action@v1
+        with:
+          rust-version: ${{ matrix.rust }}
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Test
+        run: cargo test --all --verbose
